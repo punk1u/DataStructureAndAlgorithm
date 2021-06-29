@@ -14,6 +14,13 @@ import java.util.Map;
  */
 public class LC1 {
 
+    /**
+     * 执行用时：2 ms, 在所有 Java 提交中击败了55.35%的用户
+     * 内存消耗：38.2 MB, 在所有 Java 提交中击败了96.57%的用户
+     * @param nums
+     * @param target
+     * @return
+     */
     public static int[] twoSum(int[] nums,int target){
         int[] result = new int[2];
         Map<Integer,Integer> valueAndIndexMap = new HashMap<>();

@@ -30,8 +30,8 @@ public class LC1 {
     }
 
     public static void main(String[] args) {
-        int[] testArray1 = {3,3};
-        int[] result = twoSum(testArray1,6);
+        int[] testArray1 = {2,7,11,15};
+        int[] result = twoSum(testArray1,9);
         System.out.println(result[0] + " " + result[1]);
     }
 

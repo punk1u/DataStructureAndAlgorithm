@@ -62,7 +62,7 @@ public class LC347 {
         }
         int[] res = new int[k];
         int resIndex = 0;
-        for (int i = frequencyNumArr.length-1; i >0; i--) {
+        for (int i = frequencyNumArr.length-1; i >=0; i--) {
             if (frequencyNumArr[i] != null){
                 List<Integer> items = frequencyNumArr[i];
                 for (int j = 0; j < items.size(); j++) {

@@ -22,6 +22,10 @@ public class DynamicArray<T> {
         this.size = size;
     }
 
+    public int getSize(){
+        return this.size;
+    }
+
     public static void main(String[] args) {
         DynamicArray<Integer> nums = new DynamicArray<>();
         for (int i = 0; i < 10; i++) {
@@ -39,6 +43,14 @@ public class DynamicArray<T> {
         for (int i = 0; i < 10; i++) {
             System.out.println(nums.get(i));
         }
+        System.out.println("-----------");
+        for (int i = 0; i < 100; i++) {
+            nums.addItem(i);
+        }
+        for (int i = 0; i < nums.getSize(); i++) {
+            System.out.println(nums.get(i));
+        }
+
     }
 
     public void addItem(T item){

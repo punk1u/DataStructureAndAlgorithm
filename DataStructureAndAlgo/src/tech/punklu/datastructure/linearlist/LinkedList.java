@@ -81,7 +81,7 @@ public class LinkedList {
 
         ListNode p = head;
         ListNode q = null;
-        while (p != null && p.data != value) {
+        while (p != null && p.val != value) {
             q = p;
             p = p.next;
         }

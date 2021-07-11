@@ -26,7 +26,7 @@ package tech.punklu.algorithm.sort;
  * 我们需要进行大约n次分区操作，才能完成快排的整个过程。
  * 每次分区我们平均要扫描大约n/2个元素，这种情况下，快排的时间复杂度就从O(nlogn)退化成了O(n^2)。
  *
- * T(n)在大部分情况下的时间复杂度都可以做到O(nlogn)，只有在极端情况下，才会退化到O(n2)。
+ * T(n)在大部分情况下的时间复杂度都可以做到O(nlogn)，只有在极端情况下，才会退化到O(n^2)。
  */
 public class QuickSort {
 
